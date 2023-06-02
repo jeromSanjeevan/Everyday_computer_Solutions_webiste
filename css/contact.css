@@ -1,0 +1,103 @@
+
+#contact {
+    /* background-color: #E1EBEE; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    /* padding: 20px; */
+    
+}
+
+#contact .contact {
+    width: 100%;
+    display: flex-root;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1750px; */
+    margin: 0 auto;
+ 
+
+    
+
+    
+}
+.footer{
+    background-color: #041E42;
+}
+
+.custom-row{
+    padding: 30px;
+}
+.contact h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#contact .contact p, li,a{
+    color: white;
+}
+
+.contact .s-icon{
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+  /* Styles for the logo */
+  .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  /* Styles for the social media icons */
+  .social-icons {
+    margin-top: 20px;
+    color: aliceblue;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  /* Styles for the address and quick links */
+  .address-info,
+  .quick-links {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  /* Styles for the contact form */
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+  }
+
+  .map_1 {
+
+    max-width: fit-content;;
+    max-height: 400px;
+   
+}
+.custom-column {
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    /* text-align: center; */
+  }
+
+  .Copyright {
+
+    margin-top: 40px;
+    text-align: center;
+    background-color: #012169;
+}
+
+.Copyright p {
+    color: white;
+    
+}
+
