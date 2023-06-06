@@ -403,28 +403,62 @@
 			</div>
 			<div class="trusted-bottom">
 
-				<!-- 
-				<div class="row-tp">
-					<div class="tp-1">
-						<img src="./images/trustesd-partners/tp-1.jpeg" alt="Logo 1" class="img-fluid">
-					</div>
-					<div class="tp-1">
-						<img src="./images/trustesd-partners/tp-2.jpg" alt="Logo 2" class="img-fluid">
-					</div>
-					<div class="tp-1">
-						<img src="./images/trustesd-partners/tp-3.png" alt="Logo 2" class="img-fluid">
-					</div>
-					<div class="tp-1">
-						<img src="./images/trustesd-partners/tp-4.png" alt="Logo 4" class="img-fluid">
-					</div>
-					<div class="tp-1">
-						<img src="./images/trustesd-partners/tp-5.jpg" alt="Logo 5" class="img-fluid">
-					</div>
+				<div class="container">
+					<section class="customer-logos slider">
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-1.jpeg">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-2.jpg">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-3.png">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-4.png">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-5.jpg">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-6.png">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-7.jpg">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-8.jpg">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-9.png">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="parent">
+								<img class="child" src="./images/trustesd-partners/tp-10.png">
+							</div>
+						</div>
+					</section>
+
+
 				</div>
-			</div> -->
-
-
-
 			</div>
 	</section>
 
@@ -517,11 +551,37 @@
 
 	<script src="./jquery-3.3.1.min.js"></script>
 	<script src="./bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 	<script src="./app.js"></script>
 
 	<script type="text/javascript">
 		$('.js-scroll-trigger').click(function () {
 			$('.navbar-collapse').collapse('hide');
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.customer-logos').slick({
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
 		});
 	</script>
 </body>
