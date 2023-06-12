@@ -67,6 +67,7 @@
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
+    font-size: 5rem;
 }
 
 #hero h1:nth-child(1) {
@@ -157,4 +158,12 @@
         color: #318CE7;
         font-weight: 500;
     }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        
+        font-size: 3rem;
+    }
+    
 }
