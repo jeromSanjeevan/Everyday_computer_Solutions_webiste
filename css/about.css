@@ -13,7 +13,7 @@
     display: flex-root;
     align-items: center;
     justify-content: center;
-    max-width: 1750px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 70px 0;
 }
@@ -26,4 +26,16 @@
 #about .about p {
     z-index: 100;
     color: black;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.about-background{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hr{
+    color: skyblue;
 }
