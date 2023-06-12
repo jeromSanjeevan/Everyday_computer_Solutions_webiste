@@ -12,16 +12,27 @@
     color: #318CE7;
 }
 
-h1{
+.header-line {
+    position: relative;
+    height: 25px;
+    background: linear-gradient(to right, #003399, #66ccff);
+}
+
+.section-padding {
+    padding: 20px;
+}
+
+
+h1 {
     font-size: 2.5rem;
 }
 
-h3{
+h3 {
     font-size: 1.3rem;
     color: #034694
 }
 
-p{
+p {
     font-size: 1.7re;
 }
 
@@ -39,8 +50,116 @@ p{
     border: 1px solid #0071c5;
 
 }
+
 .line-breaker_1 {
     border: 1px solid #0071c5;
     width: 90%;
-    
+
+}
+
+
+/* Slier */
+.btn-size {
+    font-size: 4rem;
+}
+
+.outer-div {
+    /* Outer div styles */
+
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box_2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.carousel {
+    position: relative;
+    width: 1200px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.carousel-indicators span.active {
+    background-color: #333;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.carousel-controls button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carousel-controls button:hover {
+    color: #bbb;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        width: 90%;
+        height: 200px
+    }
+
+    .carousel img {
+        max-width: 100%;
+
+    }
+
+    .btn-size {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        width: 95%;
+    }
 }

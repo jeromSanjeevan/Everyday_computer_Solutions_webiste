@@ -4,6 +4,7 @@
     background-position: top center;
     position: relative;
     z-index: 1;
+    padding: 100px 0;
 }
 .box {
     width: 100%;

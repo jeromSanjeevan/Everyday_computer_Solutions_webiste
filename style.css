@@ -20,7 +20,7 @@ body {
 
 
 .brand img{
-  height: 70px;
+  height: 40px;
 }
 
 
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-link{
-  font-size: 1.1em !important;
+  font-size:0.8rem !important;
 }
 
 
