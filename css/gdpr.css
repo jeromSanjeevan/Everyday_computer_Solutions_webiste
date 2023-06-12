@@ -130,6 +130,21 @@
     transition: height 0.3s ease;
 }
 
+.hd_1{
+    background-color: snow;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.hd_1 li{
+    color: black;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
     .h3-size h3 {
         font-size: 1.1rem;
