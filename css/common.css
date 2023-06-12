@@ -12,6 +12,27 @@
     color: #318CE7;
 }
 
+/* Text Underline*/
+.underline::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #318CE7;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+
+.underline:hover::after {
+    width: 100%
+}
+
+.underline:hover::before {
+    transform: scaleX(1);
+}
+
+
 .header-line {
     position: relative;
     height: 25px;
