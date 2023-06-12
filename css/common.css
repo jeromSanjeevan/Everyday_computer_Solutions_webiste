@@ -21,7 +21,7 @@
     display: block;
     margin: auto;
     transition: 0.5s;
-    
+
 }
 
 .underline:hover::after {
@@ -178,7 +178,7 @@ p {
         font-size: 2rem;
     }
 
-    .section-title{
+    .section-title {
         font-size: 2rem;
     }
 }
@@ -188,3 +188,4 @@ p {
         width: 95%;
     }
 }
+

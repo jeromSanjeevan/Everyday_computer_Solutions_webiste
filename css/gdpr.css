@@ -1,0 +1,145 @@
+#gdpr {
+    background-color: #E1EBEE;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#gdpr .gdpr {
+    width: 100%;
+    display: flex-root;
+    align-items: center;
+
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 100px 0;
+    z-index: 100;
+
+
+}
+
+.h3-size_1 {
+
+    background-color: lightgreen;
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box_3 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.gdpr-top p {
+    text-align: center;
+}
+
+.gdpr-header {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gdpr-bottom {
+    justify-content: center;
+    display: flex-root;
+    padding-top: 40px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.gdpr-bottom h3 {
+    font-size: 1.3rem;
+
+}
+
+/* 
+.itsupport-bottom h3:hover {
+    transform: translateX(20px);
+  } */
+
+.gdpr-bottom p {
+    padding-left: 40px;
+    padding-right: 20px;
+    color: black;
+
+}
+
+
+
+.gdpr-bottom li {
+    /* margin-bottom: 10px; */
+    list-style: none;
+    transition: 0.5s ease-in-out;
+
+}
+
+/* .gdpr-bottom li:hover {
+    transform: translateX(20px);
+} */
+
+.div-bottom {
+    /* padding-bottom: 40px; */
+}
+
+.box-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.collapsible {
+    margin-bottom: 10px;
+}
+
+.collapsible-header {
+    cursor: pointer;
+    /* padding: 10px; */
+    padding-bottom: 30px;
+    /* background-color: #f0f0f0; */
+    text-align: center;
+    font-size: 2rem;
+    /* border: 1px solid #ccc; */
+}
+
+.collapsible-header:hover {
+    /* background-color: #e0e0e0; */
+}
+
+.collapsible-content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    /* padding: 10px; */
+    /* border: 1px solid #ccc; */
+}
+
+
+.collapsible-content.open {
+    height: auto;
+    transition: height 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .h3-size h3 {
+        font-size: 1.1rem;
+    }
+
+    .gdpr-bottom h3 {
+        font-size: 1.2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+}

@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="./css/header.css">
 	<link rel="stylesheet" href="./css/trusted_partners.css">
 	<link rel="stylesheet" href="./css/contact.css">
+	<link rel="stylesheet" href="./css/gdpr.css">
+
 </head>
 
 <body>
@@ -53,7 +55,7 @@
 						<a class="nav-link js-scroll-trigger" href="#itsupport">IT Support</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#">GDPR</a>
+						<a class="nav-link js-scroll-trigger" href="#gdpr">GDPR</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
@@ -85,7 +87,7 @@
 
 	<!--- Jumbotron -->
 	<section id="about">
-		
+
 
 		<div class="section-padding">
 			<div class="about">
@@ -96,19 +98,23 @@
 				</div>
 				<div class="about-bottom">
 					<div class="about-background">
-						<p>Everyday Computer Solutions Ltd has been operating since 2009 with a clear philosophy in mind:
+						<p>Everyday Computer Solutions Ltd has been operating since 2009 with a clear philosophy in
+							mind:
 							to
 							deliver comprehensive managed IT support that consistently fulfils our customers' needs. We
-							prioritize flexibility, ensuring that our services adapt seamlessly to the unique requirements
+							prioritize flexibility, ensuring that our services adapt seamlessly to the unique
+							requirements
 							of
-							our clients' working environments. Our individually designed solutions are meticulously built to
-							align with your work practices and optimize the effectiveness and efficiency of the technology
+							our clients' working environments. Our individually designed solutions are meticulously
+							built to
+							align with your work practices and optimize the effectiveness and efficiency of the
+							technology
 							utilized by your business.</p>
 					</div>
 
 					<hr class="line-breaker_1">
-					
-	
+
+
 					<div class="box_2">
 						<div class="carousel">
 							<img src="./images/slider/slide_1.jpg" alt="Image 1">
@@ -116,9 +122,9 @@
 							<img src="./images/slider/slide_3.jpg" alt="Image 3">
 							<img src="./images/slider/slide_4.jpg" alt="Image 4">
 							<img src="./images/slider/slide_5.jpg" alt="Image 5">
-	
+
 							<div class="carousel-indicators"></div>
-	
+
 							<div class="carousel-controls">
 								<button id="prevBtn"><i class="fa fa-chevron-left btn-size"
 										aria-hidden="false"></i></button>
@@ -127,15 +133,15 @@
 							</div>
 						</div>
 					</div>
-	
+
 				</div>
-	
+
 				<!-- Slider -->
-	
+
 				<!-- End Of Slider -->
 			</div>
 		</div>
-		
+
 
 
 	</section>
@@ -234,7 +240,7 @@
 
 	<!--- Services -->
 	<section id="service">
-	
+
 		<div class="section-padding">
 			<div class="service">
 
@@ -436,6 +442,52 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- GDPR -->
+
+	<section id="gdpr">
+		<div class="gdpr">
+
+			<div class="gdpr-top">
+				<div class="custom-margin">
+					<h1 class="section-title underline">
+						G<span>DP</span>R</h1>
+				</div>
+
+			</div>
+
+			<div class="gdpr-bottom">
+				<div class="gdpr-header">
+					<h3>
+						Policy statement
+
+					</h3>
+					<hr class="line-breaker">
+					<p>
+						We are Everyday Computer Solutions Ltd. During a contract period with school, we will use
+						information that we gather in relation to them for various purpose. Information that we hold in
+						relation to an individual in known as their “personal data”. This will include data that we
+						obtain from the individual directly and data about the individual that we obtain from other
+						people and resources. We might also need to continue to hold an individual’s data for a period
+						of time after terminating the contract and not keeping it for longer than is necessary. Anything
+						that we do with an individual’s personal data is known as “processing”
+
+						This document sets out what personal data we will hold about our customers, why we process that
+						data, where do we get information, why do we use this information and with Whom is the
+						information shared, and the right of individuals in relation to their personal data processed by
+						us.
+
+
+					</p>
+
+					<a href="./gdpr.html" class="btn btn-primary">Read More</a>
+
+				</div>
+
 			</div>
 		</div>
 
@@ -680,6 +732,13 @@
 
 		// Show the first image initially
 		showImage(currentIndex);
+
+
+		function toggleCollapsible(header) {
+			var content = header.nextElementSibling;
+			content.classList.toggle("open");
+		}
+
 	</script>
 </body>
 
