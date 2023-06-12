@@ -177,6 +177,10 @@ p {
     .btn-size {
         font-size: 2rem;
     }
+
+    .section-title{
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 576px) {
