@@ -3,17 +3,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $name = $_POST['name'];
   $email = $_POST['email'];
   $message = $_POST['message'];
-  
-  // Set up the email headers
-  $to = 'jerom6301@gmail.com.com'; // Replace with your email address
-  $subject = 'New contact form submission';
-  $headers = "From: $name <$email>" . "\r\n";
-  
+
+  // Set up email parameters
+  $to = 'jerom@ecsolutionsltd.co.uk'; // Replace with the recipient's email address
+  $subject = 'New Email from Your Website';
+  $headers = "inquery@ecsolutionsltd.co.uk";;
+
   // Send the email
-  if (mail($to, $subject, $message, $headers)) {
-    echo 'Thank you! Your message has been sent.';
+  if (mail($to, $subject,$email, $message)) {
+    echo 'Email sent successfully.';
   } else {
-    echo 'Oops! Something went wrong. Please try again.';
+    echo 'Failed to send email.';
   }
 }
+
 ?>

@@ -10,7 +10,7 @@ body {
 }
 
 #header {
-  position: fixed;
+  /* position: fixed; */
   z-index: 1000;
   left: 0;
   top: 0;
@@ -19,31 +19,51 @@ body {
 }
 
 
-.brand img{
+.brand img {
   height: 40px;
 }
 
 
+.navbar-toggler{
+  color: white;
+}
 
 
-.nvabar {
+
+.navbar {
   /* position: fixed; */
   padding: .8rem;
+
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* Initial background color with transparency */
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+.navbar-scrolled {
+  background-color: #0a2351;
 }
 
 .nvabar-nav li {
   padding-right: 20px;
-}
 
-.nav-link{
-  font-size:0.8rem !important;
 }
 
 
+.nav-link {
+  font-size: 0.8rem !important;
+}
 
 
 
-
+.navbar-light .navbar-toggler {
+  color: rgb(35 22 211 / 10%);
+  border-color: rgba(69, 23, 129, 0.1);
+}
 
 
 
